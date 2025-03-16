@@ -6,12 +6,15 @@ public class PlayerController : MonoBehaviour
     public float mouseSensitivity = 2f;
     public float jumpForce = 5f;
     public float gravity = 9.81f;
+    public int health = 100;
     private CharacterController controller;
     private Transform playerCamera;
     private float playerSpeed;
     private float rotationX = 0f;
     private Vector3 velocity;
     private bool isGrounded;
+    private int hitCount = 0;
+    private bool isWounded = false;
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -37,9 +40,12 @@ public class PlayerController : MonoBehaviour
         controller.Move(move * playerSpeed * Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            velocity.y = Mathf.Sqrt(jumpForce * 2f * gravity); 
+            velocity.y = Mathf.Sqrt(jumpForce * 2f * gravity);
         }
-        playerSpeed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed;
+        if (!isWounded)
+        {
+            playerSpeed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed;
+        }
         velocity.y -= gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
     }
@@ -51,5 +57,23 @@ public class PlayerController : MonoBehaviour
         rotationX -= mouseY;
         rotationX = Mathf.Clamp(rotationX, -75f, 75f);
         playerCamera.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
+    }
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+        hitCount++;
+        if (hitCount >= 10)
+        {
+            isWounded = true;
+            playerSpeed = walkSpeed / 2;
+        }
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+    private void Die()
+    {
+        Debug.Log("Игрок умер!");
     }
 }

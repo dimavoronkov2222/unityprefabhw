@@ -108,6 +108,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -245,9 +246,6 @@
 -r:"/home/ismeretlen56/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 -r:"/home/ismeretlen56/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"/home/ismeretlen56/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
--r:"/home/ismeretlen56/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
--r:"/home/ismeretlen56/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
--r:"/home/ismeretlen56/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
 -r:"/home/ismeretlen56/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
 -r:"/home/ismeretlen56/Unity/Hub/Editor/6000.0.42f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
 -r:"/home/ismeretlen56/Unity/Hub/Editor/6000.0.42f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
