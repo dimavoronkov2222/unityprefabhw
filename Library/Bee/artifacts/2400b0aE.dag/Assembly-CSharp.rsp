@@ -400,6 +400,7 @@
 -analyzer:"/home/ismeretlen56/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/home/ismeretlen56/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/home/ismeretlen56/Unity/Hub/Editor/6000.0.43f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/SimpleSkeletonFree/Script/Character/EnemyController.cs"
 "Assets/scripts/Bullet.cs"
 "Assets/scripts/Enemy.cs"
 "Assets/scripts/EnemyBullet.cs"
