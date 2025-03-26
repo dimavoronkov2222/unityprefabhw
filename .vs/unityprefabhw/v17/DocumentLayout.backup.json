@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dimav\\Documents\\GitHub\\unityprefabhw\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E9578EE-A34C-3B1C-8284-185B8910646A}|Assembly-CSharp.csproj|c:\\users\\dimav\\documents\\github\\unityprefabhw\\assets\\scripts\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E9578EE-A34C-3B1C-8284-185B8910646A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E9578EE-A34C-3B1C-8284-185B8910646A}|Assembly-CSharp.csproj|c:\\users\\dimav\\documents\\github\\unityprefabhw\\assets\\scripts\\itemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E9578EE-A34C-3B1C-8284-185B8910646A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\dimav\\Documents\\GitHub\\unityprefabhw\\Assets\\scripts\\ItemSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ItemSpawner.cs",
+              "ToolTip": "C:\\Users\\dimav\\Documents\\GitHub\\unityprefabhw\\Assets\\scripts\\ItemSpawner.cs",
+              "RelativeToolTip": "Assets\\scripts\\ItemSpawner.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:28:00.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PickupItem.cs",
+              "DocumentMoniker": "C:\\Users\\dimav\\Documents\\GitHub\\unityprefabhw\\Assets\\scripts\\PickupItem.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PickupItem.cs",
+              "ToolTip": "C:\\Users\\dimav\\Documents\\GitHub\\unityprefabhw\\Assets\\scripts\\PickupItem.cs",
+              "RelativeToolTip": "Assets\\scripts\\PickupItem.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:25:55.956Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

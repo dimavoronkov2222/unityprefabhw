@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
     public float mouseSensitivity = 2f;
     public float jumpForce = 5f;
     public float gravity = 9.81f;
+    public int maxHealth = 100;
     public int health = 100;
     private CharacterController controller;
     private Transform playerCamera;
@@ -67,6 +68,7 @@ public class PlayerController : MonoBehaviour
             isWounded = true;
             playerSpeed = walkSpeed / 2;
         }
+
         if (health <= 0)
         {
             Die();
@@ -75,5 +77,14 @@ public class PlayerController : MonoBehaviour
     private void Die()
     {
         Debug.Log("Игрок умер!");
+    }
+    public void AddHealth(int amount)
+    {
+        health += amount;
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
+        Debug.Log("Здоровье пополнено: " + amount + ". Текущее здоровье: " + health);
     }
 }
