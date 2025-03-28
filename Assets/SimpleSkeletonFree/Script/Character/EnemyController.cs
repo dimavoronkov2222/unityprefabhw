@@ -13,6 +13,8 @@ namespace SkeletonEditor
         private Animator animator;
         private Transform player;
         private PlayerController playerController;
+        private int hitCount = 0;
+        private bool isWounded = false;
         void Start()
         {
             animator = GetComponent<Animator>();
@@ -58,6 +60,12 @@ namespace SkeletonEditor
         public void TakeDamage(int damage)
         {
             health -= damage;
+            hitCount++;
+            if (hitCount >= 10 && !isWounded)
+            {
+                isWounded = true;
+                moveSpeed /= 2;
+            }
             if (health <= 0)
             {
                 Die();

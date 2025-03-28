@@ -29,7 +29,7 @@ public class Enemy : MonoBehaviour
     {
         health -= damage;
         hitCount++;
-        if (hitCount >= 10)
+        if (hitCount >= 10 && !isWounded)
         {
             isWounded = true;
             speed /= 2;

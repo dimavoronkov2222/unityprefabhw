@@ -63,12 +63,11 @@ public class PlayerController : MonoBehaviour
     {
         health -= damage;
         hitCount++;
-        if (hitCount >= 10)
+        if (hitCount >= 10 && !isWounded)
         {
             isWounded = true;
-            playerSpeed = walkSpeed / 2;
+            playerSpeed = walkSpeed / 2; 
         }
-
         if (health <= 0)
         {
             Die();
